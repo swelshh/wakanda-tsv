@@ -1,0 +1,5 @@
+The the utl.js file is setup to be used as a CommonJS module.  So you'll need to create a folder named modules and put the utl.js file in there.
+
+The importTabDelim function makes a few assumptions:
+1. That you are storing the tab delim import files in a directory at project/import
+2. That you are naming your primary key fields 'ID'
