@@ -39,5 +39,5 @@ importSummary = utl.importTabDelim(Product, 'products.txt', true, ['ID', 'releas
 importSummary; //display the import summary in the console
 ```
 
-Note that if you import an ID column, the import script will is smart enough to update existing records and will also update the sequence number for the ID after finishing the import.
+Note that if you import an ID column, the import script is smart enough to skip importing existing records and will also update the sequence number for the ID after finishing the import.
 
