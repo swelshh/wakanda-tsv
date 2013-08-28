@@ -1,0 +1,15 @@
+{
+  "name": "utl",
+  "description": "some ssjs utilities, currently just tab delim import",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swelshh/Wakanda-Tab-Delim-Import"
+  },
+  "author": "Welsh Harris <welsh@corebitsdw.com> (https://github.com/swelshh)",
+  "main": "./utl.js",
+  "engines": {
+    "wakanda": "*"
+  },
+  "license": "MIT"
+}
