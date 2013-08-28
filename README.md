@@ -41,3 +41,8 @@ importSummary; //display the import summary in the console
 
 Note that if you import an ID column, the import script is smart enough to skip importing existing records and will also update the sequence number for the ID after finishing the import.
 
+Copyright 2011 - 2013 CoreBits DataWorks LLC  
+http//corebitsdw.com  
+Released under the MIT license (included in distribution in MIT LICENSE.txt)  
+
+
