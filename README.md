@@ -34,12 +34,14 @@ var utl = require('utl');
  * @param {String[]} attributeNames Attribute names corresponding to import file columns.
  * @return {String} Summary of the import.
  */
-importSummary = utl.importTabDelim(Product, 'products.txt', true, ['ID', 'releaseDate', 'partNo', 'name']);
+importSummary = utl.importTabDelim("Product", "products.txt", true, ["ID", "releaseDate", "partNo", "name"]);
 
 importSummary; //display the import summary in the console
 ```
 
 Note that if you import an ID column, the import script is smart enough to skip importing existing records and will also update the sequence number for the ID after finishing the import.
+
+## License
 
 Copyright 2011 - 2013 CoreBits DataWorks LLC  
 http//corebitsdw.com  
