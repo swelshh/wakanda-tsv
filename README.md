@@ -2,7 +2,7 @@
 
 This is a quick little script to import tab delimited data into your datastore classes using tab delimited text files.
 
-The the utl.js file is setup to be used as a CommonJS module.  So you'll need to create a folder named modules and put the utl.js file in there.
+The utl.js file is setup to be used as a CommonJS module.  So you'll need to create a folder named modules and put the utl.js file in there.
 
 The importTabDelim function makes a few assumptions:
 
