@@ -30,13 +30,18 @@ var utl = require('utl');
 /**
  * @param {String} dsClassName Name of the datastore class we are importing data into.
  * @param {String} fileName File name stored in project/import.
- * @param {Bool} hdrRow If the file to import has a header row.
+ * @param {Boolean} hdrRow If the file to import has a header row.
  * @param {String[]} attributeNames Attribute names corresponding to import file columns.
  * @return {String} Summary of the import.
  */
-importSummary = utl.importTabDelim("Product", "products.txt", true, ["ID", "releaseDate", "partNo", "name"]);
+importSummary = utl.importTabDelim(
+    "Product",
+    "products.txt",
+    true,
+    ["ID", "releaseDate", "partNo", "name"]
+);
 
-importSummary; //display the import summary in the console
+console.log(importSummary); //display the import summary in the console
 ```
 
 Note that if you import an ID column, the import script is smart enough to skip importing existing records and will also update the sequence number for the ID after finishing the import.
