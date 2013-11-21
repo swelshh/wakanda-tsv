@@ -2,7 +2,7 @@
 
 This is a quick little script to import tab separated/delimited data into your datastore classes using tab separated/delimited text files.
 
-The utl.js file is setup to be used as a CommonJS module.  So you'll need to create a folder named modules and put the utl.js file in there.
+The wakanda-tsv.js file is setup to be used as a CommonJS module.  So you'll need to create a folder named modules and put the wakanda-tsv.js file in there.
 
 The importTabDelim function makes a few assumptions:
 
@@ -25,7 +25,7 @@ ProductID, ReleaseDate, Part#, Name
 You could import those records in a server side javascript file like this:
 
 ```javascript
-var utl = require('utl');
+var utl = require('wakanda-tsv');
 
 /**
  * @param {String} dsClassName Name of the datastore class we are importing data into.
@@ -40,6 +40,11 @@ importSummary; //display the import summary in the console
 ```
 
 Note that if you import an ID column, the import script is smart enough to skip importing existing records and will also update the sequence number for the ID after finishing the import.
+
+## References
+
+* http://en.wikipedia.org/wiki/Tab-separated_values
+* http://www.cs.tut.fi/~jkorpela/TSV.html
 
 ## License
 
