@@ -1,6 +1,6 @@
 ## Notes
 
-This is a quick little script to import tab delimited data into your datastore classes using tab delimited text files.
+This is a quick little script to import tab separated/delimited data into your datastore classes using tab separated/delimited text files.
 
 The utl.js file is setup to be used as a CommonJS module.  So you'll need to create a folder named modules and put the utl.js file in there.
 
@@ -43,8 +43,24 @@ Note that if you import an ID column, the import script is smart enough to skip 
 
 ## License
 
-Copyright 2011 - 2013 CoreBits DataWorks LLC  
-http//corebitsdw.com  
-Released under the MIT license (included in distribution in MIT LICENSE.txt)  
+Copyright 2011 - 2013 CoreBits DataWorks LLC
 
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
